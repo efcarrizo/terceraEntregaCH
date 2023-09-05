@@ -1,0 +1,9 @@
+{% extends 'padre.html' %}
+{% load static %}
+{% block contenidoQueCambia %}
+    <h1>Resultado de busqueda</h1>
+    <p>Datos del cliente</p>
+    <p>Nombre : {{cliente.nombre}} </p>
+    <p>Apellido : {{cliente.apellido}} </p>
+    <p>Email : {{cliente.email}} </p>
+{% endblock contenidoQueCambia %}

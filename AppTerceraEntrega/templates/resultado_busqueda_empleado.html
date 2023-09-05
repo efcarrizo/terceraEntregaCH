@@ -1,0 +1,9 @@
+{% extends 'padre.html' %}
+{% load static %}
+{% block contenidoQueCambia %}
+    <h1>Resultado de busqueda</h1>
+    <p>Datos del Empleado</p>
+    <p>Nombre : {{empleado.nombre}} </p>
+    <p>Apellido : {{empleado.apellido}} </p>
+    <p>legajo : {{empleado.legajo}} </p>
+{% endblock contenidoQueCambia %}

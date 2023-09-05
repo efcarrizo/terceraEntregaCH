@@ -1,0 +1,9 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+{% block contenidoQueCambia %}
+    {% for producto in lista_productos  %}
+        <li>{{producto.nombre}}</li>
+    {% endfor %}
+{% endblock contenidoQueCambia %}
+
